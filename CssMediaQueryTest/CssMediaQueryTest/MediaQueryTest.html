@@ -7,13 +7,8 @@
         body {
             background-color: darkgreen;
         }
-        @media screen and (min-width: 600px) {
-            body {
-                background-color: blue;
-               
-                
-            }
-        }
+       
+        
         .oma1 {
             background-color: orange;
              width: 300px;
@@ -33,14 +28,22 @@
                 float: left;
         }
 
+        @media screen and (min-width: 600px) {
+            body {
+                background-color: blue;
+            }
+            .oma2 {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
     <h1>Oma testi</h1>
 
-    <div class ="oma1"><p>Tässä sisältöä</div>
-    <div class ="oma2"><p>Tässä sisältöä</div>
-    <div class ="oma3"><p>Tässä sisältöä</p></div>
+    <div class ="oma1"><p>Tässä sisältöä laatikoossa 1</div>
+    <div class ="oma2"><p>Tässä sisältöä laatikoossa 2</div>
+    <div class ="oma3"><p>Tässä sisältöä laatikoossa 3</p></div>
 </body>
 </html>
